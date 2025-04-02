@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: Food-Trucks
+
+api:
+  data:
+    url: https://data.sfgov.org/resource
