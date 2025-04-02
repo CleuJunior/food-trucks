@@ -8,9 +8,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.time.Instant;
 import java.time.LocalDateTime;
-import java.time.OffsetDateTime;
 
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -22,7 +20,7 @@ public class VendorPermit {
 
     private int objectid;
     private String applicant;
-    private String facilitytype;
+    private FacilityType facilitytype;
     private int cnn;
     private String address;
     private String blocklot;
